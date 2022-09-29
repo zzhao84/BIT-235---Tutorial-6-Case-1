@@ -26,13 +26,13 @@ table th, td {
    padding: 8px;
 }
 
-table th {
-   background: black;
+th {
+   background-color: black;
    font-color: rgb(130, 210, 255);
    font-weight: normal;
 }
 
-table td {
+td {
    font-color: white;
    font-size: 0.9em;
    vertical-align: top;
