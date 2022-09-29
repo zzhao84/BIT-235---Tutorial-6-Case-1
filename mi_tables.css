@@ -52,7 +52,7 @@ col.dataCols {
 
 /* Table Header Styles */
 
-thread tr {
+thead tr {
    height: 60px;
 }
 
