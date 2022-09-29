@@ -60,7 +60,7 @@ tr:first-child > th:first-of-type {
    font-size: 2em;
 }
 
-tr:first-of-type > th:not(th:first-of-type) {
+th:not(th:first-of-type) {
    background: transparent;
    color: black;
 }
