@@ -28,12 +28,12 @@ table th, td {
 
 th {
    background-color: black;
-   font-color: rgb(130, 210, 255);
+   color: rgb(130, 210, 255);
    font-weight: normal;
 }
 
 td {
-   font-color: white;
+   color: white;
    font-size: 0.9em;
    vertical-align: top;
 }
