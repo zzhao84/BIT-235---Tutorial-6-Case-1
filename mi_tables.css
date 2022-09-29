@@ -56,11 +56,11 @@ thread tr {
    height: 60px;
 }
 
-thread tr th:first-of-type {
+table#pricing tr > th:first-of-type {
    font-size: 2em;
 }
 
-thread tr not(th:first-of-type) {
+table#pricing tr > th:not(th:first-of-type) {
    background: transparent;
    color: black;
 }
