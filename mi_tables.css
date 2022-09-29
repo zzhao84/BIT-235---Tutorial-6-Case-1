@@ -52,15 +52,15 @@ col.dataCols {
 
 /* Table Header Styles */
 
-table#pricing thread tr {
+thread tr {
    height: 60px;
 }
 
-table#pricing thread > th:first-of-type {
+thread tr th:first-of-type {
    font-size: 2em;
 }
 
-table#pricing thread > not(th:first-of-type) {
+thread tr not(th:first-of-type) {
    background: transparent;
    color: black;
 }
