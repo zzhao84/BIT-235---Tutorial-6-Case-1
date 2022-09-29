@@ -56,11 +56,11 @@ thread tr {
    height: 60px;
 }
 
-thread tr:first-of-type > th:first-of-type {
+tr:first-of-type > th:first-of-type {
    font-size: 2em;
 }
 
-thread tr:first-of-type > th:not(th:first-of-type) {
+tr:first-of-type > th:not(th:first-of-type) {
    background: transparent;
    color: black;
 }
