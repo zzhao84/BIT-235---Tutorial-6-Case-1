@@ -41,12 +41,29 @@ td {
 
 /* Column Styles */
 
+col#firstCol {
+   width: 24%;
+}
 
+col.dataCols {
+   width: 19%;
+}
+   
 
 /* Table Header Styles */
 
+table#pricing thread tr {
+   height: 60px;
+}
 
+table#pricing thread > th:first-of-type {
+   font-size: 2em;
+}
 
+table#pricing thread > not(th:first-of-type) {
+   background: transparent;
+   color: black;
+}
 
 
 
