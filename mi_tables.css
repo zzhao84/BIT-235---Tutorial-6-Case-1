@@ -56,7 +56,7 @@ thread tr {
    height: 60px;
 }
 
-thread > th:first-of-type {
+thread:first-child > th:first-of-type {
    font-size: 2em;
 }
 
